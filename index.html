@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Dashboard</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link
+            href="https://unpkg.com/lucide-icons/dist/umd/lucide.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav class="navbar">
+            <div class="navbar-content">
+                <div class="navbar-left">
+                    <button id="menuToggle" class="icon-button">
+                        <i data-lucide="menu"></i>
+                    </button>
+                    <h1>Dashboard</h1>
+                </div>
+                <div class="navbar-right">
+                    <input
+                        type="search"
+                        placeholder="Search..."
+                        class="search-input"
+                    />
+                    <button class="icon-button">
+                        <i data-lucide="bell"></i>
+                    </button>
+                    <button class="icon-button">
+                        <i data-lucide="settings"></i>
+                    </button>
+                    <button class="icon-button">
+                        <i data-lucide="user"></i>
+                    </button>
+                </div>
+            </div>
+        </nav>
+
+        <div class="layout">
+            <!-- left side bar -->
+            <aside class="left-menu" id="leftMenu">
+                <div class="menu-items">
+                    <button class="menu-button">Dashboard</button>
+                    <button class="menu-button">Projects</button>
+                    <button class="menu-button">Tasks</button>
+                    <button class="menu-button">Calendar</button>
+                    <button class="menu-button">Reports</button>
+                    <button class="menu-button">Settings</button>
+                </div>
+            </aside>
+
+            <!-- main contant -->
+            <main class="main-content">
+                <div class="content-grid">
+                    <div class="welcome-card">
+                        <h2>Welcome Back</h2>
+                        <p>
+                            This is your dashboard overview. Here you can see
+                            all your important information at a glance.
+                        </p>
+                    </div>
+                    <div class="cards-grid">
+                        <div class="card">
+                            <h3>Real Time Traffic Sign Classification using CNN</h3>
+                            <p>
+                                Real-Time Traffic Sign Classification using CNN leverages deep learning to accurately identify and classify traffic signs from live video streams, ensuring safer and smarter driving decisions. The model processes visual data in real time, enabling rapid recognition and response to road signals.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3>Bank Management System</h3>
+                            <p>
+                                The Bank Management System is a software application designed to efficiently handle core banking operations, including account management, transactions, and customer data. It streamlines banking processes, ensuring security, accuracy, and improved customer experience.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3>Skin Cancer Classification Using CNN</h3>
+                            <p>
+                                Skin Cancer Classification using CNN utilizes deep learning to accurately detect and classify skin lesions from medical images. The model aids early diagnosis and improves treatment outcomes by providing rapid and reliable skin cancer predictions.
+                            </p>
+                        </div>
+                        <div class="card">
+                            <h3>Library Management System</h3>
+                            <p>
+                                Library Management System is a software application that automates the management of books, members, and transactions in a library. It ensures efficient organization, quick search, and seamless tracking of issued and returned books.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- right panel -->
+            <aside class="right-panel">
+                <div class="panel-content">
+                    <div class="panel-card">
+                        <h3>Notifications</h3>
+                        <div class="notifications">
+                            <div class="notification">Notification 1</div>
+                            <div class="notification">Notification 2</div>
+                            <div class="notification">Notification 3</div>
+                        </div>
+                    </div>
+                    <div class="panel-card">
+                        <h3>Quick Actions</h3>
+                        <div class="quick-actions">
+                            <button class="action-button">New Project</button>
+                            <button class="action-button">Add Task</button>
+                            <button class="action-button">
+                                Generate Report
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+
+        <!-- footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p>
+                    &copy; Made with
+                    <i
+                        data-lucide="heart"
+                        style="width: 14px; height: 12px; margin-top: 5px"
+                    ></i>
+                    Prajwal Thawari.
+                </p>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/lucide@latest"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
