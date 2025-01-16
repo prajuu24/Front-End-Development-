@@ -42,7 +42,7 @@ This is a responsive and interactive dashboard application, providing an overvie
 
 ## Deployment
 
-This project is hosted at [www.prajwal.com](http://www.prajwal.com). For local deployment, simply host the files on any web server.
+This project is hosted at [https://prajuu24.github.io/Front-End-Development-/]. For local deployment, simply host the files on any web server.
 
 ## Screenshots
 
