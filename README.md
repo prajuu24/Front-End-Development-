@@ -1,6 +1,6 @@
 # Dashboard Project
 
-This is a responsive and interactive dashboard application, providing an overview of various functionalities such as project management, task tracking, calendar, reports, and notifications. The project is accessible publicly at [www.prajwal.com](http://www.prajwal.com).
+This is a responsive and interactive dashboard application, providing an overview of various functionalities such as project management, task tracking, calendar, reports, and notifications. The project is accessible publicly at [www.prajwal.com](https://prajuu24.github.io/Front-End-Development-/).
 
 ## Features
 
